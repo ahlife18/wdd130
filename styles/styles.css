@@ -19,7 +19,7 @@ main img {
     height: auto;
     border: 1px solid darkblue;
     padding: 2rem;
-    box-shadow: #92d473;
+    box-shadow: 3px 3px 5px #92d473;
 
 }
 
