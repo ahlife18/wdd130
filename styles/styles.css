@@ -1,5 +1,5 @@
 body {
-    max-width: 900px;
+    max-width: 700px;
     margin: 0 auto;
     font-family: Arial, sans-serif;
     background-color: #ddd;
@@ -9,13 +9,45 @@ header,
 footer {
     padding: 1rem;
     color: white;
-    background-color: #333;
+    background-color: #92d473;
     text-align: center;
+    margin-top: 20px;
+}
+
+main img {
+    width: 500px;
+    height: auto;
+    border: 1px solid darkblue;
+    padding: 2rem;
+    box-shadow: #92d473;
+
 }
 
 main {
-    padding: 1.5rem;
-    background-color: white;
+    max-width: 700px;
+    padding: 0.5rem;
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(179, 195, 226);
+    color: darkblue;
+
+}
+
+aside img {
+    width: 500px;
+    height: auto;
+    border: 1px solid darkblue;
+
+}
+
+aside {
+    margin: 0.6rem;
+    border: 1px solid rgb(0 0 0 / 0.2);
+    padding: 2rem;
+    color: darkblue;
+}
+
+p {
+    padding: 0;
 }
 
 picture img {
