@@ -1,15 +1,15 @@
 .callout {
-	
+    border: 1px solid #d0d0d0;
+    padding: 1rem;
 }
 
 .callout img {
-	
-}
-
-blockquote {
-	
+    float: right;
+    margin: 0 0 1rem 1rem;
+    border: 1px solid #999;
 }
 
 cite {
-	
+    font-style: italic;
+    color: #555;
 }
