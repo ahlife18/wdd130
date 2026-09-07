@@ -12,6 +12,7 @@ footer {
     background-color: #92d473;
     text-align: center;
     margin-top: 20px;
+    border-top: 1px solid #000;
 }
 
 main img {
@@ -44,16 +45,18 @@ main {
 }
 
 aside img {
-    width: 500px;
+    width: 200px;
     height: auto;
     border: 1px solid darkblue;
 
 }
 
 aside {
+    width: 20rem;
     margin: 0.6rem;
     border: 1px solid rgb(0 0 0 / 0.2);
     padding: 2rem;
+    background-color: #eee;
     color: darkblue;
 }
 
