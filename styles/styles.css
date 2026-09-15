@@ -53,9 +53,8 @@ main {
 }
 
 aside img {
-    width: 650px;
+    width: 200px;
     height: auto;
-
 }
 
 aside {
@@ -68,6 +67,15 @@ aside h2 {
     position: absolute;
     top: 47px;
     left: 150px;
+}
+
+aside {
+    width: 700px;
+    margin: 1rem auto;
+    border: 1px solid darkblue;
+    padding: 1rem;
+    background-color: white;
+    color: darkblue;
 }
 
 p {
