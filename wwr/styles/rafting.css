@@ -90,6 +90,23 @@ article {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
+header {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    align-items: center;
+    gap: 1rem;
+    max-width: 840px;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: var(--primary-color);
+}
+
+header > img {
+    width: 120px;
+    height: auto;
+    border-radius: 8px;
+}
+
 header,
 footer {
     padding: 1rem;
@@ -97,6 +114,37 @@ footer {
     background-color: var(--primary-color);
     text-align: center;
     margin-top: 20px;
+}
+
+header nav {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+header nav a {
+    display: block;
+    padding: 0.75rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: var(--secondary-color);
+}
+
+header nav li {
+    flex: 1 1 auto;
+    text-align: center;
 }
 
 nav {
