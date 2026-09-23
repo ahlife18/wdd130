@@ -19,16 +19,12 @@ body {
     background-color: var(--accent2-color);
 }
 
-main {
-    width: 840px;
-    margin: 0 auto;
-    background-color: #fff;
-}
-
+main,
 header,
 footer {
     width: 840px;
     margin: 0 auto;
+    background-color: #fff;
 }
 
 h1,
