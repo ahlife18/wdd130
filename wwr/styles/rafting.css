@@ -228,3 +228,37 @@ p {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.5);
 }
+
+form button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1.25rem;
+    border: 0;
+    font-weight: bold;
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form > label {
+    display: block;
+}
+
+form > input[type="checkbox"] + label {
+    display: inline;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+form fieldset {
+    margin: 1rem 0;
+    padding: 1rem;
+}
